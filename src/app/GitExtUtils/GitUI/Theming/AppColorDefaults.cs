@@ -18,7 +18,23 @@
                 { AppColor.DiffRemoved, Color.FromArgb(255, 200, 200) },
                 { AppColor.DiffRemovedExtra, Color.FromArgb(255, 165, 165) },
                 { AppColor.DiffAdded, Color.FromArgb(200, 255, 200) },
-                { AppColor.DiffAddedExtra, Color.FromArgb(135, 255, 135) }
+                { AppColor.DiffAddedExtra, Color.FromArgb(135, 255, 135) },
+                { AppColor.AnsiTerminalBlackNormal, Color.FromArgb(0x00, 0x00, 0x00) },
+                { AppColor.AnsiTerminalBlackBold, Color.FromArgb(0x60, 0x60, 0x60) },
+                { AppColor.AnsiTerminalRedNormal, Color.FromArgb(0xd4, 0x2c, 0x3a) },
+                { AppColor.AnsiTerminalRedBold, Color.FromArgb(0xff, 0x76, 0x76) },
+                { AppColor.AnsiTerminalGreenNormal, Color.FromArgb(0x1c, 0xa8, 0x00) },
+                { AppColor.AnsiTerminalGreenBold, Color.FromArgb(0x00, 0xf2, 0x00) },
+                { AppColor.AnsiTerminalYellowNormal, Color.FromArgb(0xc0, 0xa0, 0x00) },
+                { AppColor.AnsiTerminalYellowBold, Color.FromArgb(0xf2, 0xf2, 0x00) },
+                { AppColor.AnsiTerminalBlueNormal, Color.FromArgb(0x00, 0x5d, 0xff) },
+                { AppColor.AnsiTerminalBlueBold, Color.FromArgb(0x7d, 0x97, 0xff) },
+                { AppColor.AnsiTerminalMagentaNormal, Color.FromArgb(0xb1, 0x48, 0xc6) },
+                { AppColor.AnsiTerminalMagentaBold, Color.FromArgb(0xff, 0x70, 0xff) },
+                { AppColor.AnsiTerminalCyanNormal, Color.FromArgb(0x00, 0xa8, 0x9a) },
+                { AppColor.AnsiTerminalCyanBold, Color.FromArgb(0x00, 0xf0, 0xf0) },
+                { AppColor.AnsiTerminalWhiteNormal, Color.FromArgb(0xbf, 0xbf, 0xbf) },
+                { AppColor.AnsiTerminalWhiteBold, Color.FromArgb(0xff, 0xff, 0xff) }
             };
 
         private static readonly Dictionary<string, Dictionary<AppColor, Color>> Variations = new()
